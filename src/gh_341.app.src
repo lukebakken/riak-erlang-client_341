@@ -1,0 +1,12 @@
+{application, gh_341,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { gh_341_app, []}},
+  {env, []}
+ ]}.
